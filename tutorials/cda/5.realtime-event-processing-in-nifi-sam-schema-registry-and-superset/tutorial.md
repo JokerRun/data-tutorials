@@ -132,13 +132,15 @@ Now that these configurations are complete, we are ready to import and run our S
 
 3\. Enter the following commands:
 
-~~~~bash
+```bash
 su hdfs
 
 hdfs dfs -chmod 777 /apps
-~~~~
+```
 
 The commands above will allow the service Storm in HDF to write to HDFS which resides in HDP.
+
+
 
 ### Step 3: Deploy SAM Topology CDA Version
 
